@@ -4,11 +4,7 @@
     <test name="C2421">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="netahsilatUI.tests.hesapBakiyeleri.C2421">
-                <methods>
-                    <include name="C2421_Hesap_Bakiyeleri"/>
-                </methods>
-            </class>
+            <class name="netahsilatUI.tests.hesapBakiyeleri.C2421"></class>
         </classes>
     </test>
 </suite>
