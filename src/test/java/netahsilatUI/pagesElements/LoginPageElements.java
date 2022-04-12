@@ -26,6 +26,8 @@ public class LoginPageElements extends Parent{
     public void InvalidLogin() {
         sendKeysFunction(getInputUserName(), "ortaknetekstre@yandex.com");
         sendKeysFunction(getInputPassword(), "Kd!cyhz4");
+        delay(3);
+        System.out.println("Delayed");
         clickFunction(getBtnLogin());
     }
 
