@@ -19,7 +19,7 @@ public class LoginPageElements extends Parent{
     private WebElement inputUserName;
     @FindBy(css = "#password")
     private WebElement inputPassword;
-    @FindBy(xpath = "//button[normalize-space()='Giriş Yap']")
+    @FindBy(css = "button[type='submit']")
     private WebElement btnLogin;
 
 
