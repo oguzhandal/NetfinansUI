@@ -1,0 +1,5 @@
+
+
+--- Ekrana Dialog Çıkartmak için:
+        import javax.swing.*;
+        JOptionPane.showMessageDialog(null, "Selam kızlar");
